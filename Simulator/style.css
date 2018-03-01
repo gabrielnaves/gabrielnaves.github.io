@@ -19,3 +19,10 @@
     top: 45%;
     left: 50%;
 }
+
+.changelog {
+    background-color: #eeeeee;
+    color: #222831;
+    width: 960px;
+    /* word-wrap: break-word; */
+}
