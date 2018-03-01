@@ -1,0 +1,21 @@
+.page-background {
+    background-color: #222831;
+}
+
+.simulator-container {
+    background-color: #333333;
+    color: #eeeeee;
+    width: 960px;
+    height: 610px;
+    margin: auto;
+}
+
+.load-simulator {
+    background-color: #222831;
+    height: 26px;
+    width: 138px;
+    margin-left: -69px;
+    position: relative;
+    top: 45%;
+    left: 50%;
+}

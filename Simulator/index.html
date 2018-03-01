@@ -5,13 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>TG</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="simulator_loader.js"></script>
   </head>
-  <body>
-    <div>
-      <iframe frameborder="0" src="https://itch.io/embed-upload/784947?color=333333"
-        allowfullscreen="" width="960" height="610"></iframe>
+  <body class="page-background">
+    <div class="container-fluid">
+      <div id="simulator-container" class="simulator-container">
+        <input class="load-simulator" type="button" value="Carregar Simulador" onclick="loadSimulator();" />
+      </div>
     </div>
   </body>
 </html>
