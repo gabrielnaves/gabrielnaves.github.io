@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function loadChangelog() {
-    var changelog_url = "https://raw.githubusercontent.com/gabrielnaves/TG/master/shp_sim/changelog.md";
+    var changelog_url = "https://raw.githubusercontent.com/gabrielnaves/TG/master/shp_sim/changelog_pt-br.md";
     $("#changelog").load(changelog_url, function() {
         var converter = new showdown.Converter();
         var text = $("#changelog").html();
