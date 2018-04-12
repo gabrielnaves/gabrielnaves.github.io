@@ -12,7 +12,7 @@ function loadChangelog() {
 }
 
 function loadSimulator() {
-    var src_url = "https://itch.io/embed-upload/808913?color=333333";
+    var src_url = "https://itch.io/embed-upload/835930?color=333333";
     var width = 960;
     var height = 610;
 

@@ -13,8 +13,8 @@
 .load-simulator {
     background-color: #222831;
     height: 26px;
-    width: 138px;
-    margin-left: -69px;
+    width: 150px;
+    margin-left: -75px;
     position: relative;
     top: 45%;
     left: 50%;
@@ -24,5 +24,4 @@
     background-color: #eeeeee;
     color: #222831;
     width: 960px;
-    /* word-wrap: break-word; */
 }
