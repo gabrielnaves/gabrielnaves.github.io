@@ -1,8 +1,68 @@
-.page-background {
-    background-color: #222831;
+:root {
+  --color-charleston-green: #222831;
+  --color-arsenic: #393E46;
+  --color-tiffany-blue: #00ADB5;
+  --color-isabelline: #eeeeee;
 }
 
-.top-bar {
-    background-color: #eeeeee;
-    color: #222831;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-charleston-green);
+  color: var(--color-charleston-green);
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  background-color: var(--color-isabelline);
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav a {
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-charleston-green);
+}
+
+nav a:hover {
+  color: var(--color-tiffany-blue);
+}
+
+#welcome-section {
+  background-color: var(--color-isabelline);
+  padding-top: 30px;
+  min-height: calc(100vh - 30px);;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section h1 {
+  margin-bottom: 40px;
+}
+
+#welcome-section img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+
+#welcome-section p {
+  max-width: 1000px;
 }
