@@ -3,6 +3,7 @@
   --color-arsenic: #393E46;
   --color-tiffany-blue: #00ADB5;
   --color-isabelline: #eeeeee;
+  --navbar-height: 30px;
 }
 
 * {
@@ -22,7 +23,7 @@ nav {
   background-color: var(--color-isabelline);
   position: fixed;
   width: 100%;
-  height: 30px;
+  height: var(--navbar-height);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,8 +43,8 @@ nav a:hover {
 
 #welcome-section {
   background-color: var(--color-isabelline);
-  padding-top: 30px;
-  min-height: calc(100vh - 30px);;
+  padding-top: var(--navbar-height);
+  min-height: calc(100vh - 2 * var(--navbar-height));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,4 +66,27 @@ nav a:hover {
 
 #welcome-section p {
   max-width: 1000px;
+  padding: 0px 10px 0px 10px;
+}
+
+#projects {
+  color: var(--color-isabelline);
+}
+
+#projects .projects-space {
+  height: var(--navbar-height);
+  background-color: var(--color-isabelline);
+  margin: 0px;
+  padding: 0px;
+}
+
+#projects h2 {
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#projects img {
+  width: 100%;
 }
