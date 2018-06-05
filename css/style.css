@@ -176,3 +176,27 @@ nav a {
   justify-content: center;
   align-items: center;
 }
+
+footer {
+  background-color: var(--color-charleston-green);
+  color: var(--color-isabelline);
+}
+
+footer .footer-links {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-links .footer-link {
+  color: var(--color-isabelline);
+  text-transform: none;
+  margin: 0px 10px 0px 10px;
+}
+
+footer .footer-links .footer-link:hover {
+  color: var(--color-tiffany-blue);
+}
+
