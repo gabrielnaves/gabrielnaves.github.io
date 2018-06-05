@@ -4,7 +4,7 @@
   --color-tiffany-blue: #00ADB5;
   --color-isabelline: #eeeeee;
   --navbar-height: 30px;
-  --max-width: 960px;
+  --max-page-width: 960px;
 }
 
 * {
@@ -20,6 +20,17 @@ body {
   width: 100%;
 }
 
+a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-charleston-green);
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--color-tiffany-blue);
+}
+
 nav {
   background-color: var(--color-isabelline);
   position: fixed;
@@ -28,18 +39,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
 }
 
 nav a {
   width: 100px;
-  text-align: center;
-  text-decoration: none;
-  color: var(--color-charleston-green);
-}
-
-nav a:hover {
-  color: var(--color-tiffany-blue);
 }
 
 #welcome-section {
@@ -66,7 +69,7 @@ nav a:hover {
 }
 
 #welcome-section p {
-  max-width: var(--max-width);
+  max-width: var(--max-page-width);
   padding: 0px 10px 0px 10px;
 }
 
@@ -74,13 +77,47 @@ nav a:hover {
   color: var(--color-isabelline);
 }
 
-#projects .projects-empty-space {
+#projects .empty-space {
   height: var(--navbar-height);
   background-color: var(--color-isabelline);
 }
 
 #projects h2 {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   text-transform: uppercase;
+}
+
+#projects .project-grid {
+  width: 100%;
+  max-width: var(--max-page-width);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects .project-item {
+  background-color: var(--color-arsenic);
+  border-style: solid;
+  border-color: var(--color-isabelline);
+  border-width: 1px;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects .project-item img {
+  height: 100%;
+}
+
+#projects .project-item p {
+  background-color: var(--color-isabelline);
+  height: 20px;
+  width: 100%;
 }
