@@ -130,7 +130,7 @@ nav a {
 #projects .project-tile .project-caption {
   background-color: var(--color-isabelline);
   width: 100%;
-  min-height: 8%;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
