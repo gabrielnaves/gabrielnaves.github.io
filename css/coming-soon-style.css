@@ -1,0 +1,9 @@
+#welcome-section {
+  background-color: var(--color-isabelline);
+  padding-top: var(--navbar-height);
+  min-height: calc(100vh - var(--navbar-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
