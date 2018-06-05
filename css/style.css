@@ -112,12 +112,6 @@ nav a {
   align-items: center;
 }
 
-@media (max-width: 300px) {
-  #projects .project-tile {
-    margin: 20px 0px 20px 0px;
-  }
-}
-
 #projects .project-tile:hover {
   border-color: var(--color-tiffany-blue);
 }
@@ -136,7 +130,7 @@ nav a {
 #projects .project-tile .project-caption {
   background-color: var(--color-isabelline);
   width: 100%;
-  min-height: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
