@@ -64,20 +64,20 @@ nav a {
   width: 100%;
   max-width: 200px;
   height: auto;
-  margin-bottom: 40px;
   border-radius: 2px;
 }
 
 #welcome-section p {
   max-width: var(--max-page-width);
   padding: 0px 10px 0px 10px;
+  margin-top: 40px;
 }
 
 #projects {
   color: var(--color-isabelline);
 }
 
-#projects .empty-space {
+.empty-space {
   height: var(--navbar-height);
   background-color: var(--color-isabelline);
 }
@@ -98,7 +98,7 @@ nav a {
   align-items: center;
 }
 
-#projects .project-item {
+#projects .project-tile {
   border-style: solid;
   border-color: var(--color-isabelline);
   border-width: 1px;
@@ -111,18 +111,18 @@ nav a {
   align-items: center;
 }
 
-#projects .project-item figure {
+#projects .project-tile figure {
   background-color: var(--color-arsenic);
   width: 100%;
   height: 92%;
 }
 
-#projects .project-item figure img {
+#projects .project-tile figure img {
   max-width: 100%;
   height: 100%;
 }
 
-#projects .project-item .project-caption {
+#projects .project-tile .project-caption {
   background-color: var(--color-isabelline);
   width: 100%;
   height: 8%;
