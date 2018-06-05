@@ -112,6 +112,12 @@ nav a {
   align-items: center;
 }
 
+@media (max-width: 300px) {
+  #projects .project-tile {
+    margin: 20px 0px 20px 0px;
+  }
+}
+
 #projects .project-tile:hover {
   border-color: var(--color-tiffany-blue);
 }
