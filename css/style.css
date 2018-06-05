@@ -4,6 +4,7 @@
   --color-tiffany-blue: #00ADB5;
   --color-isabelline: #eeeeee;
   --navbar-height: 30px;
+  --max-width: 960px;
 }
 
 * {
@@ -65,7 +66,7 @@ nav a:hover {
 }
 
 #welcome-section p {
-  max-width: 1000px;
+  max-width: var(--max-width);
   padding: 0px 10px 0px 10px;
 }
 
@@ -73,20 +74,13 @@ nav a:hover {
   color: var(--color-isabelline);
 }
 
-#projects .projects-space {
+#projects .projects-empty-space {
   height: var(--navbar-height);
   background-color: var(--color-isabelline);
-  margin: 0px;
-  padding: 0px;
 }
 
 #projects h2 {
-  height: auto;
   padding-top: 40px;
   padding-bottom: 40px;
   text-transform: uppercase;
-}
-
-#projects img {
-  width: 100%;
 }
