@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function loadChangelog() {
-    var changelog_url = "https://raw.githubusercontent.com/gabrielnaves/TG/master/shp_sim/changelog_pt-br.md";
+    var changelog_url = "https://raw.githubusercontent.com/gabrielnaves/open-fluid-simulator/master/changelog_pt-br.md";
     $("#changelog").load(changelog_url, function() {
         var converter = new showdown.Converter();
         var text = $("#changelog").html();
@@ -12,7 +12,7 @@ function loadChangelog() {
 }
 
 function loadSimulator() {
-    var src_url = "https://itch.io/embed-upload/894845?color=333333";
+    var src_url = "https://itch.io/embed-upload/947799?color=333333";
     var width = 960;
     var height = 610;
 
