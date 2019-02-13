@@ -138,6 +138,7 @@ nav a {
 
 #contact {
   background-color: var(--color-isabelline);
+  min-height: calc(100vh - var(--navbar-height));
 }
 
 #contact h2 {
