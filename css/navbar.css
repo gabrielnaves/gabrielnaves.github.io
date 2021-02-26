@@ -1,0 +1,15 @@
+#navbar {
+  background: var(--white);
+
+  position: fixed;
+  width: 100%;
+  height: var(--navbar-height);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar a {
+  width: 100px;
+}

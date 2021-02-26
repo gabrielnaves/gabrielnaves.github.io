@@ -1,0 +1,38 @@
+:root {
+  --black: #222831;
+  --gray: #393E46;
+  --blue: #00ADB5;
+  --white: #eeeeee;
+  --navbar-height: 40px;
+  --max-page-width: 1080px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--black);
+  color: var(--black);
+
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  color: var(--black);
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+.empty-space {
+  background: var(--white);
+  height: var(--navbar-height);
+}

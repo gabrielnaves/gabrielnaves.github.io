@@ -1,0 +1,15 @@
+footer {
+  background: var(--white);
+  color: var(--black);
+
+  height: var(--navbar-height);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer > small {
+  padding-bottom: 5px;
+}
